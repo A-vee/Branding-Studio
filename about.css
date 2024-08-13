@@ -1,0 +1,213 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+
+@font-face {
+    font-family: regular;
+    src: url(apercu-regular-pro.ttf);
+}
+@font-face {
+    font-family: light;
+    src: url(apercu-light-pro.ttf);
+}
+@font-face {
+    font-family: bold;
+    src: url(apercu-bold-pro.ttf);
+}
+nav
+{
+   background-color: #bcbcbc6d;
+    z-index: 100;
+    position: fixed;
+    height: 12vh;
+    width:100%;
+    
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    color: #e3dfdf;
+   
+}
+#text1
+{
+    margin-left: 5%;
+    width:45%;
+    
+   color: #000000;
+    justify-content: left;
+}
+#text1 h2
+{
+    font-family: "light";
+    font-weight: 100;
+   font-size: 1.7vw;
+}
+
+#text2
+{
+    margin-right: 5%;
+    width:10%;
+    height: 5vh;
+    font-family: "light";
+    text-align: center;
+    justify-content: end;
+
+}
+#text2 button
+{
+    background: #e3dfdf;
+    height:40px;
+    width:110px;
+    font-family:"light";
+    border: 1px solid #000000;
+    border-radius: 20px;
+   font-size: 1.1vw;
+    color:rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.page1
+{
+    height:150vh;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+ h8
+{
+    margin-top: 5vh;
+    padding: 0 11rem;
+    font-family: light;
+    text-align: left;
+    
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+ h1
+{
+    padding: 0 2rem;
+    font-family: light;
+    text-align: center;
+    font-weight: 100;
+    font-size: 4rem;
+}
+#cont
+{
+    margin-top: 10vh;
+    height:80vh;
+    width:80%;
+    justify-content: space-between;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+  
+}
+#cont #cont1
+{
+    height:80vh;
+    width:100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    flex-direction: column;
+    background-color: rgb(221, 221, 221);
+}
+#cont1 p
+{
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#cont1 span
+{
+   
+margin-left: 70%;
+    
+    height:3rem;
+    font-size: 2rem;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width:4rem;
+}
+.footer {
+    
+    margin-top: 0rem;
+    position: relative;
+    color: #ffffff;
+    width: 100%;
+    height:35vh;
+   
+    background-color: #000000;
+    
+  }
+  .footer .footer-row {
+    display: flex;
+    font-family: "regular";
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3.5rem;
+    padding: 60px;
+  }
+  .footer-row .footer-col h4 {
+    color: #ffffffdb;
+    font-family: "bold";
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  .footer-col .links {
+    margin-top: 20px;
+  }
+  .footer-col .links li {
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  .footer-col .links li a {
+    text-decoration: none;
+    color: #ffffff98;
+  }
+  .footer-col .links li a:hover {
+    color: #9c9898;
+  }
+  
+  .footer-col .icons {
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+    cursor: pointer;
+    margin-bottom: 0;
+  }
+  .footer-col .icons i {
+    color: #ffffff;
+  }
+  .footer-col .icons i:hover  {
+    color: #3c3c3c;
+  }
+ #cont1 button:hover
+ {
+  background-color: #ffffff;
+  transition: 0.2s linear;
+ }
+ #cont1
+ {
+  cursor: pointer;
+  opacity: 0.9;
+ }
+ #cont1:hover
+ {
+  transition: 0.2s linear;
+  opacity: 1;
+ }
